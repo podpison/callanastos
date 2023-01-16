@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: gothamPro;
+    overflow-x: hidden;
+  }
+  body {
+    @apply text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px]
+  }
+  h1 {
+    @apply text-[44px] sm:text-[50px] md:text-[54px] lg:text-[60px]
+  }
+  h2 {
+    @apply text-[36px] sm:text-[38px] md:text-[42px] lg:text-[46px]
+  }
+  h3 {
+    @apply text-[24px] sm:text-[26px] md:text-[28px] lg:text-[30px]
+  }
+  h4 {
+    @apply text-[18px] sm:text-[20px] md:text-[24px] lg:text-[26px]
+  }
+  h5 {
+    @apply text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]
+  }
+}
+
+@font-face {
+  font-family: gothamPro;
+  src: url('./assets/font/GothamPro.woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: gothamPro;
+  src: url('./assets/font/GothamPro-Bold.woff');
+  font-weight: 700;
+}
